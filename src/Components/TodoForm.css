@@ -1,0 +1,27 @@
+form {
+    display: flex;
+  }
+  
+  .input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-right: 10px;
+    font-size: 16px;
+  }
+  
+  .input:focus {
+    outline: none;
+    border-color: rgb(171, 232, 47);
+  }
+  
+  button {
+    background-color: rgb(171, 232, 47);
+    border-radius: 10px;
+    border: none;
+    width: 20%;
+  }
+  button:hover{
+    background-color: rgb(109, 231, 109);
+  }
